@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <img src = "tacc_logo.png" alt = "tacc_logo" style = "width:200px;height:150px;" class = "center"><br>
+        <form name ="myForm" action="submitForm.php" method="get">
+            Name/Organization Name:
+            <input type = "text" name= "name" required><br><br>
+			Email:
+			<input type = "email" name= "email" required><br><br>
+            Organization Type:
+                <select id = "tour_type">
+                    <option value = "Campus Tour">Campus Tour</option>
+                    <option value = "First-Year Interest Group">First Year Interest Group</option>
+                    <option value = "Computer Science POD">Computer Science POD</option>
+                    <option value = "Company Tour">Company Tour</option>
+					<option value = "K-12 Group">K-12 Group</option>
+                    
+                </select><br><br>
+			Date of Visit:
+				<input type="date" id="visitDate" name="visitDate" required> <br><br>
+			
+            Comments: <br>
+				<textarea rows = "5" cols = "60" name = "comments">
+				</textarea><br><br>
+            
+        </form>
+        <button type = "submit" form = "form1" value ="Submit">Submit</button>
+
+    </body>
+
+
+
+
+
+</html>
